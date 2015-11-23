@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Auction Watcher</title>
+		<meta name="description" content="Xiami Exporter" />
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+		<meta name="author" content="hwy" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/css.css" />
+		<link rel="stylesheet" type="text/css" href="css/popup.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/knockout-3.1.0.js"></script>
+		<script type="text/javascript" src="js/getData.js"></script>
+		<script type="text/javascript" src="js/popup.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<button class="btn btn-default" data-bind="click:run" type="button">获取收藏</button>
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>id</th>
+						<th>标题</th>
+						<th>歌手</th>
+					</tr>
+					<tr data-bind="foreach: songs">
+						<td data-bind="$index"></td>
+						<td data-bind="$data.name"></td>
+						<td data-bind="$data.artiest"></td>
+					</tr>
+				</thead>
+			</table>
+		</div>
+	</body>
+</html>

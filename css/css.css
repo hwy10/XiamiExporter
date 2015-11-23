@@ -1,0 +1,33 @@
+.icon-gold {
+	padding-right: 15px;
+	background: url("/img/gold.gif") right center no-repeat;
+}
+
+.icon-silver {
+padding-right: 15px;
+padding-left: 3px;
+background: url("/img/silver.gif") right center no-repeat;
+}
+
+.icon-copper {
+padding-right: 15px;
+padding-left: 3px;
+background: url("/img/copper.gif") right center no-repeat;
+}
+
+.gold
+{
+	background: url("/img/gold.gif") right center no-repeat;
+}
+.silver
+{
+	background: url("/img/silver.gif") right center no-repeat;
+}
+.copper
+{
+	background: url("/img/copper.gif") right center no-repeat;
+}
+.new
+{
+	font-weight:bold;
+}
